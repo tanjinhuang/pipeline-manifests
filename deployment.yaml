@@ -39,6 +39,6 @@ spec:
     spec:
       containers:
         - name: redis
-          image: ghcr.io/tanjinhuang/pipeline-app:6cabfb4e1bb6fb3cd3674b4085c3e0d8de43ba06
+          image: redis:7-alpine
           ports:
             - containerPort: 6379
