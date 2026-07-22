@@ -20,7 +20,7 @@ spec:
           env:
             - name: REDIS_HOST
               value: "redis"
-          imagePullPolicy: Never
+          imagePullPolicy: IfNotPresent
 
 ---
 apiVersion: apps/v1
