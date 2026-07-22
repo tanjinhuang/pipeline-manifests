@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: flask
-          image: ghcr.io/tanjinhuang/pipeline-app:9f6bc05a916add38da2ec5cc5507dd596941e8b1
+          image: ghcr.io/tanjinhuang/pipeline-app:b29f68b8058488f6a0032c6f03584ba1ec1985a4
           ports:
             - containerPort: 5000
           env:
@@ -39,6 +39,6 @@ spec:
     spec:
       containers:
         - name: redis
-          image: ghcr.io/tanjinhuang/pipeline-app:9f6bc05a916add38da2ec5cc5507dd596941e8b1
+          image: ghcr.io/tanjinhuang/pipeline-app:b29f68b8058488f6a0032c6f03584ba1ec1985a4
           ports:
             - containerPort: 6379
