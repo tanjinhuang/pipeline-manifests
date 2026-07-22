@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: flask
-          image: ghcr.io/tanjinhuang/pipeline-app:9a5e84a0b4e4ef30a085e0b817d10cc9a53ab384
+          image: ghcr.io/tanjinhuang/pipeline-app:971e9a7ffa7a7f5a90f7e24c027bb980a6684a8f
           ports:
             - containerPort: 5000
           env:
